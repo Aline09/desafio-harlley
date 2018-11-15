@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  height: 10vh;
+  font-size: 2rem;
+  padding-top: 0.5rem;
+}
+.header__titulo--hashtag {
+  display: block;
+  float: left;
+  padding-left: 20px;
+}
+.header__titulo--contador {
+  display: block;
+  float: right;
+  padding-right: 20px;
+}
+
+.video {
+  padding-left: 10px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.video__card {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.video__card--square,
+.video__card--tumbnail {
+  width: 100%;
+}
