@@ -16,12 +16,12 @@ html {
 .header__titulo--hashtag {
   display: block;
   float: left;
-  padding-left: 20px;
+  padding-left: 2%;
 }
 .header__titulo--contador {
   display: block;
   float: right;
-  padding-right: 20px;
+  padding-right: 2%;
 }
 
 .video {
